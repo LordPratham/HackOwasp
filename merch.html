@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Merchandise</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><link rel="stylesheet" href="./merch.css">
+ 
+<div>
+  <header>
+    <nav>
+        <div class="logo">
+  
+        </div>
+        <div class="toggle">
+            <span class="first"></span>
+            <span class="middle"></span>
+            <span class="last"></span>
+        </div>
+        <div class="navigation-bar ">
+            <ul>
+              <li><a href="index.html">HomePage<span class="underline"></span></a></li>
+              <li><a href="merch.html">Merchandise<span class="underline"></span></a></li>
+              <li><a href="order.html">Order<span class="underline"></span></a></li>
+              <li><a href="about.html">About_Us<span class="underline"></span></a></li>
+              <li><a href="FAQs.html">FAQs<span class="underline"></span></a></li>
+              <li><a href="contact_us.html">Contact_Us<span class="underline"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+  
+</header>
+</div>
+  
+<!-- partial:index.partial.html -->
+
+<div id="toast"></div>
+<div id="toast-cart"></div>
+<div class="container">
+  <h1><strong>Our Merchandise</strong></h1>
+  <p>Buy Our Merchandise to support the GOOD Cause</p>
+  <span><i class="shopping-cart"></i></span>
+  <hr style="height:10px">
+  <br>
+  <div class="row">
+  <div class="col-lg-3">
+    <div class="card" style="width: 18rem;">
+      <span id="heart" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+  <img src="blacktshirt.png" class="first-image">
+  <div class="card-body">
+    <a href="#" onclick="addCart()"><center>Add to cart</center></a>
+    <hr>
+    <center>
+      <h5 class="card-title">Black T-shirt</h5>
+    </center>
+  </div>
+</div>
+</div>
+      <div class="col-lg-3">
+    <div class="card" style="width: 18rem;">
+      <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+  <img src="blackhoodie.png" class="first-image">
+  <div class="card-body">
+    <a href="#" onclick="addCart()"><center>Add to cart</center></a>
+    <hr>
+    <center>
+      <h5 class="card-title">Black Hoodie</h5>
+    </center>
+  </div>
+</div>
+</div>
+    <div class="col-lg-3">
+    <div class="card" style="width: 18rem;">
+      <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+  <img src="pinktshirt.png" class="first-image">
+  <div class="card-body">
+    <a href="#" onclick="addCart()"><center>Add to cart</center></a>
+    <hr>
+    <center>
+      <h5 class="card-title">Pink T-shirt</h5>
+    </center>
+  </div>
+</div>
+</div>
+<div class="col-lg-3">
+  <div class="card" style="width: 18rem;">
+    <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+<img src="pinkhoodie.png" class="first-image">
+<div class="card-body">
+  <a href="#" onclick="addCart()"><center>Add to cart</center></a>
+  <hr>
+  <center>
+    <h5 class="card-title">Pink Hoodie</h5>
+  </center>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./merch.js"></script>
+
+</body>
+</html>
