@@ -162,7 +162,7 @@ header .navigation-bar .underline {
 .contact-us {
   position: relative;
   width: 250px;
-  background: #C3E0EC;
+  background: la;
   overflow: hidden;
 }
 .contact-us:before {
